@@ -1114,6 +1114,7 @@ body {
 }
 #slider {
   background-color: #F7F7F7;
+  overflow: hidden;
 }
 .swiper-wrapper {
   margin-bottom: 70px;
@@ -1396,7 +1397,10 @@ body {
   }
 }
 .myswwss {
-  min-width: 0;
+  min-width: 0px;
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 .myfotocard__row {
   display: flex;
