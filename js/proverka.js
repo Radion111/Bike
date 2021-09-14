@@ -71,6 +71,12 @@ $(document).ready(function () {
 });
 
 
+$(document).ready(function () {
+  $(".header__a").click(function (e) { 
+    e.preventDefault();
+    $(".burger-menu,.header").removeClass("active");
+  });
+}); 
 
 $(document).ready(function() {
   $('.burger-menu').click(function(event) {
