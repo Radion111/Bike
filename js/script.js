@@ -29,24 +29,6 @@ function ibg() {
 
 ibg();
 
-// ! Переписать в скоре на native javaScript
-$(document).ready(function () {
-  $(".header__a").click(function (e) {
-    e.preventDefault();
-    $("html,body").animate(
-      {
-        scrollTop: $($(this).attr("href")).offset().top + "px",
-      },
-      {
-        duration: 1000,
-        easing: "linear",
-      }
-    );
-    return false;
-  });
-});
-// end
-
 let headeralla = document.querySelectorAll(".header__a");
 headeralla.forEach(function (item) {
   item.addEventListener("click", function allHeader(event) {
@@ -64,3 +46,23 @@ burgermenu.addEventListener("click", function burgerMenu(event) {
   document.querySelector(".header").classList.toggle("active");
   document.getElementsByTagName("body")[0].classList.toggle("lock");
 });
+
+let scroll = document.querySelectorAll(".header__a");
+
+scroll.forEach((item) => {
+  item.addEventListener("click", function Scroll(event) {
+    event.preventDefault();
+    let id = event.target.getAttribute("href");
+
+    setTimeout(() => {
+      document.querySelector(id).scrollIntoView({
+        block: "center",
+        behavior: "smooth",
+      });
+    }, 300);
+  });
+});
+
+
+
+
