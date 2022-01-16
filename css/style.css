@@ -258,7 +258,7 @@ body {
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #4D4959;
+    background-color: #4d4959;
   }
   .burger-menu span:first-child {
     top: 0px;
@@ -322,7 +322,7 @@ body {
 @media (max-width: 768px) {
   .header {
     position: fixed;
-    background-color: #4D4959;
+    background-color: #4d4959;
     width: 320px;
     height: 100%;
     overflow: auto;
@@ -363,7 +363,7 @@ body {
   height: 3px;
   width: 3px;
   border-radius: 50%;
-  background-color: #4D4959;
+  background-color: #4d4959;
   position: absolute;
   bottom: 0px;
   right: 80px;
@@ -387,7 +387,7 @@ body {
   width: 3px;
   display: block;
   border-radius: 50%;
-  background-color: #4D4959;
+  background-color: #4d4959;
   position: absolute;
   bottom: 0px;
   right: 100px;
@@ -407,7 +407,7 @@ body {
 .header__a {
   font-size: 13px;
   font-weight: bold;
-  color: #4D4959;
+  color: #4d4959;
   text-align: center;
 }
 @media (max-width: 768px) {
@@ -451,7 +451,7 @@ body {
 }
 .header2 {
   display: flex;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   padding-bottom: 130px;
   padding-top: 117px;
   justify-content: center;
@@ -507,7 +507,7 @@ body {
 }
 @media (max-width: 735px) {
   .textmmmmm {
-    width: 550px  ;
+    width: 550px;
   }
 }
 @media (max-width: 768px) {
@@ -532,7 +532,7 @@ body {
 }
 .mainhh2 {
   width: 100%;
-  margin: 30px auto 0px auto ;
+  margin: 30px auto 0px auto;
   font-size: 18px;
   text-align: center;
   font-weight: 700;
@@ -544,7 +544,7 @@ body {
 }
 @media (max-width: 468px) {
   .mainhh2 {
-    width: 380px ;
+    width: 380px;
   }
 }
 @media (max-width: 385px) {
@@ -680,7 +680,7 @@ body {
   }
 }
 .vintage__bodytext {
-  padding: 61px 68px 74px 68px ;
+  padding: 61px 68px 74px 68px;
   background-color: white;
   text-align: center;
   position: relative;
@@ -954,7 +954,7 @@ body {
 }
 .obertka2 {
   position: absolute;
-  background-color: #5AA58C;
+  background-color: #5aa58c;
   opacity: 0.8;
   width: 100%;
   top: 0px;
@@ -971,7 +971,7 @@ body {
 }
 .obertka {
   position: absolute;
-  background-color: #5AA58C;
+  background-color: #5aa58c;
   opacity: 0.5;
   width: 100%;
   height: 100%;
@@ -996,7 +996,7 @@ body {
 }
 .podklass3 {
   position: absolute;
-  background-color: #5AA58C;
+  background-color: #5aa58c;
   opacity: 0.8;
   width: 100%;
   top: 0px;
@@ -1101,7 +1101,7 @@ body {
 }
 .knopka {
   position: relative;
-  padding: 75px 0px ;
+  padding: 75px 0px;
   height: 200px;
   background: #282f35;
   display: flex;
@@ -1114,7 +1114,7 @@ body {
   }
 }
 #slider {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   overflow: hidden;
 }
 .swiper-wrapper {
@@ -1147,10 +1147,10 @@ body {
   color: #848789;
 }
 .swiper-pagination {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 .swiper-pagination-bullet-active {
-  background: #A9AFB3;
+  background: #a9afb3;
 }
 .swiper-button-prev {
   color: grey;
@@ -1185,7 +1185,7 @@ body {
 }
 .obertka {
   position: absolute;
-  background-color: #5AA58C;
+  background-color: #5aa58c;
   opacity: 0.5;
   width: 100%;
   top: 0px;
@@ -1234,6 +1234,9 @@ body {
   color: #929292;
   padding-left: 25px;
 }
+#i1:focus {
+  border-left: 7px solid #56be97;
+}
 #i2 {
   width: 126px;
   height: 69px;
@@ -1250,7 +1253,7 @@ body {
   padding: 20px 0px;
 }
 .footer__body {
-  padding: 105px 0px ;
+  padding: 105px 0px;
 }
 @media (max-width: 700px) {
   .footer__body {
@@ -1366,7 +1369,7 @@ body {
   }
 }
 #i1 {
-  border: 1px solid #D3D7D9;
+  border: 1px solid #d3d7d9;
 }
 @media (max-width: 640px) {
   #i1 {
@@ -1381,11 +1384,11 @@ body {
 .buttongo {
   width: 120px;
   height: 69px;
-  color: #FBFEFC;
+  color: #fbfefc;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
-  background-color: #64C29E;
+  background-color: #64c29e;
 }
 @media (max-width: 480px) {
   .buttongo {
@@ -1456,7 +1459,7 @@ body {
 .myfotocard__midwidth {
   display: block;
   position: relative;
-  flex: 1 0  50%;
+  flex: 1 0 50%;
 }
 .myfotocard__midwidth:hover .myfotocard__logo {
   opacity: 1;
@@ -1484,7 +1487,7 @@ body {
   height: 100%;
   width: 100%;
   display: flex;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   justify-content: center;
   flex-direction: column;
   text-align: center;
